@@ -11,6 +11,6 @@ d1 = datetime.now()
 # print(a.replace('-', ', ').strip(' 07:33'))
 
 a = datetime.strptime("%s" % d3, "%Y-%m-%d")
-
+print('aaaaaaa')
 # delta = d1 - a
 # print((d1 - a).days)
