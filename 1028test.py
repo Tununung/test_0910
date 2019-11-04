@@ -16,5 +16,3 @@ a = datetime.strptime("%s" % d3, "%Y-%m-%d")
 
 # delta = d1 - a
 # print((d1 - a).days)
-if d1:
-    print(d1)
