@@ -10,8 +10,6 @@ d1 = datetime.now()
 # # print(d2)
 # print(a.replace('-', ', ').strip(' 07:33'))
 
-d1 = datetime.now()
-d3 = '2018-5-22 07:33'.split(' ')[0]
 a = datetime.strptime("%s" % d3, "%Y-%m-%d")
 
 # delta = d1 - a
